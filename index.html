@@ -1,0 +1,391 @@
+<html>
+<head>
+ <title> sample of stories</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+    * {
+    box-sizing: border-box;
+    }
+    body{
+	margin:0;
+	}
+   
+    .header {
+    padding: 20px;
+    text-align: center;
+	color:black;
+	background-color: #bccaf6 ;
+    }
+	
+	
+	.head{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    }
+	
+	
+   .head1{
+    font-weight:bold;
+    color:white;
+    } 
+
+
+	
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+   }
+
+   li {
+   float: left;
+   }
+
+  li a, .dropbtn,.dropbtn1 {
+   display: inline-block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+  }
+
+  li a:hover, .dropdown:hover .dropbtn ,.dropdown1:hover .dropbtn1{
+  background-color: #657481;
+  }
+
+  li.dropdown {
+  display: inline-block;
+  }
+  li.dropdown1{
+  display:inline-block;
+  }
+
+ .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e9edfc;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ }
+ .dropdown1-content{
+  display: none;
+  position: absolute;
+  background-color: #e9edfc;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+
+ .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+  text-align: left;
+  }
+  
+  .dropdown1-content a{
+  color:black;
+  text-decoration:none;
+  text-align:center;
+  }
+
+  .dropdown-content a:hover {background-color: #a9b3bc;}
+  
+  .dropdown1-content a:hover{
+  color:white;
+  }
+
+  .dropdown:hover .dropdown-content,.dropdown1:hover .dropdown1-content{
+   display: block;
+   }
+   
+   
+  
+  
+   
+   
+   
+   .column {
+  float: left;
+  padding: 10px;
+  }
+
+  .column.side {
+   width: 25%;
+   }
+
+  .column.middle {
+   width: 75%;
+  
+  }
+
+
+  .row:after {
+   content: "";
+   display: table;
+   clear: both;
+  }
+
+
+   @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+    width: 100%;
+   }
+  }
+
+  @media screen and (max-width: 300px) {
+    li a, .dropbtn {
+      float: none;
+      width: 100%;
+    }
+  }
+ 
+ 
+
+
+.footer {
+    padding:20px;
+    text-align: center;
+	background-color:#e8effc;
+	color:black;
+	
+}
+  .headstories{
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size:32px;
+  color:white;
+  text-shadow: 2px 2px 4px #000000;  
+  }
+  
+  
+  
+ .textstories {
+   font-size:30px;
+   color:white;
+   text-shadow: 2px 2px 4px #000000;  
+ }
+    
+	table{
+	border-collapse:collapse;
+	width:100%;
+	}
+	
+	td {
+	padding:8px;
+	text-align:left;
+	border-bottom:1px solid #ddd;
+	text-shadow: 2px 2px 4px #000000;
+	box-shadow: 10px 10px 5px grey;
+	
+	}
+	
+    tr:hover{background-color:#6f9bdc;}
+
+	
+    .mid a:link{
+	text-decoration:none;
+	color:white;
+	}
+	
+	.mid a:visited{
+	text-decoration:none;
+	color:white;
+	}
+	
+	.mid a:hover{
+	text-decoration:none;
+	
+	}
+	
+	.mid a:active{
+	text-decoration:underline;
+	}
+	
+ div.gallery {
+  border: 1px solid #ccc;
+  box-shadow:10px 10px 5px grey;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	
+   
+ 
+</style>
+
+
+
+
+
+</head>
+<body>
+
+ <div class="header">
+	<h1 class="head1" >OCEAN OF STORIES</h1>
+	<h3 class="head">A PLACE TO READ AND CHILL</h3>
+</div>
+
+<ul>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">HOME</a>
+    <div class="dropdown-content">
+      <a href="#">LOVE</a>
+      <a href="#">SCIENTIFIC</a>
+      <a href="#">FICTIONAL</a>
+    </div>
+  </li>
+  <li class="dropdown1">
+    <a href="javascript:void(0)" class="dropbtn1" >NEWS</a>
+	<div class="dropdown1-content">
+	   <marquee direction="right" behavior="alternate" width="60%"><a  href="#"> new information </a></marquee>
+	   <br>
+	   <marquee direction="right" behavior="alternate" width="60%"><a href="#"> new stories</a></marquee>
+	</div>
+	
+	</li>
+	
+  <li><a href="#content">CONTENT</a></li>
+  <li><a href="#about">ABOUT</a></li>
+  <li style="float:right";><a href="#" target="_blank" title="login to account">SIGN IN</a></li> 
+  <li style="float:right";><a href="#" target="_blank" title="create account">SIGN UP</a></li>
+</ul>
+
+<div class="row">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>inserting of nav bar or google adds</p>
+	<br/>
+	
+	
+	<br/>
+  </div>
+  
+  <div class="column middle">
+    <h2 class="headstories"> stories:</h2>
+	<p class="textstories">A narration of an incident or a series of events or an example of these that is or may be narrated, as an anecdote, joke, etc.</p>
+   <div class="responsive">
+      <div class="gallery">
+         <a target="_blank" href="2.1.jpg" title="2.1">
+           <img src="2.1.jpg" alt="2.1" width="600" height="400">
+         </a>
+      <div class="desc">2.1</div>
+      </div>
+   </div>
+
+
+   <div class="responsive">
+     <div class="gallery">
+         <a target="_blank" href="2.2.jpg" title="2.2">
+          <img src="2.2.jpg" alt="2.2" width="600" height="400">
+         </a>
+      <div class="desc">2.2</div>
+      </div>
+    </div>
+
+   <div class="responsive">
+     <div class="gallery">
+       <a target="_blank" href="2.3.jpg" title="2.3">
+        <img src="2.3.jpg" alt="2.3" width="600" height="400">
+        </a>
+       <div class="desc">2.3</div>
+      </div>
+    </div>
+
+   <div class="responsive">
+     <div class="gallery">
+       <a target="_blank" href="2.4.jpg" title="2.4">
+      <img src="2.4.jpg" alt="2.4" width="600" height="400">
+       </a>
+     <div class="desc">2.4</div>
+     </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+	<br>
+	<br>
+	<br>
+	 
+	<table>
+	  <tr> 
+	    <td><h2><div class="mid"><a  href="#friendstory" target="_blank">friend story</div></a></h2></td>
+	  </tr>
+	  <tr>
+	    <td><h2><div class="mid"><a  href="#childhoodstory" target="_blank"> childhood story</div></a></h2></td>
+	  </tr>
+	  <tr>
+	    <td><h2><div class="mid"><a  href="#fierystory" target="_blank"> fiery story</div></a></h2></td>
+	  </tr>
+	  <tr>
+	    <td><h2><div class="mid"><a  href="#horrrifiedstory" target="_blank"> horrifiedstory</div></a></h2></td>
+	  </tr>
+	   <tr>
+	    <td><h2><div class="mid"><a  href="#reckless" target="_blank"> reckless</div></a></h2></td>
+	  </tr>
+	  <tr>
+	    <td><h2><div class="mid"><a  href="#123" target="_blank"> 123</div></a></h2></td>
+	  </tr>
+	  
+	</table>
+	<br/>
+	<br/>
+	
+	
+	
+	
+	
+  </div>
+  </div>
+
+
+<div class="footer">
+<h3> made for story lovers</h3>
+<br/>
+<h3>contact us through <a style="text-decoration:none" href="#" target="_blank" > kpranayreddy2000@gmail.com</a></h3>
+</div>
+
+
+
+</body>
+</html>
